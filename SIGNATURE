@@ -1,0 +1,47 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.68.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 de677d8930558ff5dec7551c780f76345539c566 Build.PL
+SHA1 78600826b9624098c01beb6b69a71ce61ec61b73 Changes
+SHA1 81a92acab0db3860cab270facb095a96a3891110 MANIFEST
+SHA1 585bdf04d5a8ce585990f12b3c9d2bdd5473b43c META.json
+SHA1 d6f00ada7558a51bb206b8422577b7a9f03f6a2f META.yml
+SHA1 67d3c5f99c2eae0774a2c1695772232128b6e917 Makefile
+SHA1 5ee080c07e3374ddeb3fc6855edb503bd0c3e0fe README
+SHA1 a84db78583b6767e58a4e14ffe86b5e38d93bf94 bin/indexer
+SHA1 9118a005ac770b8dce1aef32eda89acfcc79c5b8 lib/WWW/Scraper/Lite.pm
+SHA1 b606b7988628ee669ef04b0ee547fa9ebb13be95 t/00-critic.t
+SHA1 c585834db653d365a1f5b6ed37711582c5d0dbd7 t/00-distribution.t
+SHA1 32ec8634d41388a8668f86e29aa3735654b16062 t/00-pod.t
+SHA1 fe2b07e80d35997ff89292ec73afa3b0019a05e3 t/00-podcoverage.t
+SHA1 469b2813f4b72867a4b8c3dd6c84b94e92f126a8 t/10-scraper.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iQIcBAEBAgAGBQJN4rdOAAoJEPG6pZARLr4FhKgP/jHBuhGuRPcsHYMfVOJW3/IJ
+zqUOw/xwnbxEeaFQjefeX17lg79rvUkNlYNjBLIKUMIJ7yHjGp+4UGY1qMaNoBCI
+ZSYWTvRKoyrPnj/BJvLI0kSXtA98W4TGr0i9IUmKgywB5msIQSKRSN5igcgWXc9n
+ahI/zCuwa7RkQGzo7PHkdCmzHoD+83ZqbsSaX2+RLKiRFoa2epziqEdOBJAI06TO
+uLVH1jr7RmGjl5WyO4e2FKPhCNk3kKmEqppSDijumERiV2J3Xj3PVXEC7ZPMPs9B
+bxwFoUMxUUVMGTUM8///O6EMMi3dgbebigirmjX3M6tnDpzq7LO+6m4QdCdWhI+J
+cFCD747owzWlaTIQo6ACUu4TD4MD+Th0PQpKRAZ05QZPOtB3D4dkU9dk6dme1Rtd
+jlj3a8N2GkXAW/VwvHfKjuVbyoA/dwdvomfxxDZEY76ZTrMBkaXHvgJSEfarX/lk
+xlbNi502Y5vMc0GQV3jhDOz4X1XBI5CCwaMTa1OVGovNkQRJ9zAU2VsFs8BYSXos
+OFAmMtuibHdnkh3itT02TgorbuWN+1JlmJpaKqCQfbGvBOwwYRjQ7lURRhftDgfK
+vJPEZC2R8JdL0YTM7I/RfjfNmHuBX76Pj4XnjmI2NdwszXQ1CgGcASKdkhO2BzMV
+EZGyVe3XPpTiAVs3a1oQ
+=6Gss
+-----END PGP SIGNATURE-----

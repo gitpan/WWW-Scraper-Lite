@@ -1,0 +1,27 @@
+---
+abstract: 'Simple web scraper with XPath support'
+author:
+  - 'Roger Pettett <rmp@psyphi.net>'
+build_requires:
+  Test::More: 0.8
+configure_requires:
+  Module::Build: 0.38
+dynamic_config: 1
+generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.110440'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: WWW-Scraper-Lite
+provides:
+  WWW::Scraper::Lite:
+    file: lib/WWW/Scraper/Lite.pm
+    version: 9
+requires:
+  Carp: 1.02
+  English: 1.01
+  HTML::TreeBuilder::XPath: 0.12
+  Readonly: 1.03
+resources:
+  license: http://dev.perl.org/licenses/
+version: 9

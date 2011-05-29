@@ -1,0 +1,3 @@
+Changelog for WWW::Scraper::Lite
+================================
+0.1 - Initial import, support for crawling, XPath expressions, callbacks
