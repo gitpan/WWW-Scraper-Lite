@@ -1,9 +1,9 @@
 #!/usr/local/bin/perl
 #########
 # Author:        rmp
-# Last Modified: $Date: 2011-05-29 17:18:49 +0100 (Sun, 29 May 2011) $
-# Id:            $Id: indexer 7 2011-05-29 16:18:49Z rmp $
-# $HeadURL: svn+ssh://psyphi.net/repository/svn/www-scraper-lite/branches/prerelease-0.1/bin/indexer $
+# Last Modified: $Date: 2011-05-29 22:56:18 +0100 (Sun, 29 May 2011) $
+# Id:            $Id: indexer 11 2011-05-29 21:56:18Z rmp $
+# $HeadURL: svn+ssh://psyphi.net/repository/svn/www-scraper-lite/trunk/bin/indexer $
 #
 use strict;
 use warnings;
@@ -23,7 +23,7 @@ use DateTime;
 use Date::Parse;
 use Readonly;
 
-our $VERSION    = do { my ($r) = q$Revision: 7 $ =~ /(\d+)/smx; $r; };
+our $VERSION    = do { my ($r) = q$Revision: 11 $ =~ /(\d+)/smx; $r; };
 our $WEIGHTINGS = {
 		   'pdf'   => 0.8,
 		   'html'  => 10,

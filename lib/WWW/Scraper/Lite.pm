@@ -2,10 +2,10 @@
 # vim:ts=8:sw=2:et:sta:sts=2
 #########
 # Author:        rmp
-# Last Modified: $Date: 2011-05-29 22:04:59 +0100 (Sun, 29 May 2011) $
-# Id:            $Id: Lite.pm 9 2011-05-29 21:04:59Z rmp $
+# Last Modified: $Date: 2011-05-29 22:56:18 +0100 (Sun, 29 May 2011) $
+# Id:            $Id: Lite.pm 11 2011-05-29 21:56:18Z rmp $
 # Source:        $Source$
-# $HeadURL: svn+ssh://psyphi.net/repository/svn/www-scraper-lite/branches/prerelease-0.1/lib/WWW/Scraper/Lite.pm $
+# $HeadURL: svn+ssh://psyphi.net/repository/svn/www-scraper-lite/trunk/lib/WWW/Scraper/Lite.pm $
 #
 package WWW::Scraper::Lite;
 use strict;
@@ -14,7 +14,7 @@ use LWP::UserAgent;
 use HTML::TreeBuilder::XPath;
 use Carp;
 
-our $VERSION = do { my ($r) = q$Revision: 9 $ =~ /(\d+)/smx; $r; };
+our $VERSION = do { my ($r) = q$Revision: 12 $ =~ /(\d+)/smx; $r; };
 
 sub new {
   my ($class, $ref) = @_;
@@ -150,7 +150,7 @@ WWW::Scraper::Lite
 
 =head1 VERSION
 
-$LastChangedRevision: 9 $
+$LastChangedRevision: 11 $
 
 =head1 SYNOPSIS
 

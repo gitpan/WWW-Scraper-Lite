@@ -2,10 +2,10 @@
 # vim:ts=8:sw=2:et:sta:sts=2
 #########
 # Author:        rmp
-# Last Modified: $Date: 2011-05-29 16:47:20 +0100 (Sun, 29 May 2011) $
-# Id:            $Id: Build.PL 4 2011-05-29 15:47:20Z rmp $
+# Last Modified: $Date: 2011-05-31 10:47:11 +0100 (Tue, 31 May 2011) $
+# Id:            $Id: Build.PL 13 2011-05-31 09:47:11Z rmp $
 # Source:        $Source$
-# $HeadURL: svn+ssh://psyphi.net/repository/svn/www-scraper-lite/branches/prerelease-0.1/Build.PL $
+# $HeadURL: svn+ssh://psyphi.net/repository/svn/www-scraper-lite/trunk/Build.PL $
 #
 use strict;
 use warnings;
@@ -19,12 +19,28 @@ my $builder = Module::Build->new(
 				 dist_abstract       => q[Simple web scraper with XPath support],
 				 license             => 'perl',
 				 requires            => {
-							 'English'           => '1.01',
-							 'Carp'              => '1.02',
-							 'Readonly'          => '1.03',
+							 'English'                  => '1.01',
+							 'Carp'                     => '1.02',
+							 'Readonly'                 => '1.03',
 							 'HTML::TreeBuilder::XPath' => '0.12',
+                                                         'LWP::UserAgent'           => '6.02',
+                                                         'strict'                   => '1.04',
+                                                         'warnings'                 => '1.12',
+
 							},
 				 recommends          => {
+                                                         'CAM::PDF'       => '1.54',
+                                                         'CGI'            => '3.52',
+                                                         'Data::Dumper'   => '2.130_02',
+                                                         'Date::Parse'    => '2.30',
+                                                         'DateTime'       => '0.70',
+                                                         'DBI'            => '1.616',
+                                                         'File::Temp'     => '0.22',
+                                                         'Getopt::Long'   => '2.38',
+                                                         'HTML::Entities' => '3.68',
+                                                         'Module::Build'  => '0.38',
+                                                         'Readonly'       => '1.03',
+                                                         'Time::HiRes'    => '1.972101',
 							},
 				 build_requires      => {
 							 'Test::More'              => '0.8',
