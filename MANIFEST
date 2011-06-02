@@ -1,4 +1,5 @@
 bin/indexer
+bin/validator
 Changes
 lib/WWW/Scraper/Lite.pm
 Makefile

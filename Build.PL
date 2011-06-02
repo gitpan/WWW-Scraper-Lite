@@ -2,8 +2,8 @@
 # vim:ts=8:sw=2:et:sta:sts=2
 #########
 # Author:        rmp
-# Last Modified: $Date: 2011-05-31 10:47:11 +0100 (Tue, 31 May 2011) $
-# Id:            $Id: Build.PL 13 2011-05-31 09:47:11Z rmp $
+# Last Modified: $Date: 2011-06-02 22:46:31 +0100 (Thu, 02 Jun 2011) $
+# Id:            $Id: Build.PL 15 2011-06-02 21:46:31Z rmp $
 # Source:        $Source$
 # $HeadURL: svn+ssh://psyphi.net/repository/svn/www-scraper-lite/trunk/Build.PL $
 #
@@ -25,7 +25,7 @@ my $builder = Module::Build->new(
 							 'HTML::TreeBuilder::XPath' => '0.12',
                                                          'LWP::UserAgent'           => '6.02',
                                                          'strict'                   => '1.04',
-                                                         'warnings'                 => '1.12',
+                                                         'warnings'                 => '1.06',
 
 							},
 				 recommends          => {

@@ -57,7 +57,8 @@ use_ok($PKG);
 		    });
   my $results;
   ok($s->crawl('http://foo.com/', {
-				   '//a' => sub { shift; $results = shift; },
+				   '//a' => sub { shift; my $x = shift; $results = $x->attr('href'); },
 				  }), 'crawl return value');
-  is($results->{href}, 'http://foo.com/bar.baz', 'parsed XPath node href');
+
+  is($results, 'http://foo.com/bar.baz', 'parsed XPath node href');
 }

@@ -2,8 +2,8 @@
 # vim:ts=8:sw=2:et:sta:sts=2
 #########
 # Author:        rmp
-# Last Modified: $Date: 2011-05-29 22:56:18 +0100 (Sun, 29 May 2011) $
-# Id:            $Id: Lite.pm 11 2011-05-29 21:56:18Z rmp $
+# Last Modified: $Date: 2011-06-02 22:46:31 +0100 (Thu, 02 Jun 2011) $
+# Id:            $Id: Lite.pm 15 2011-06-02 21:46:31Z rmp $
 # Source:        $Source$
 # $HeadURL: svn+ssh://psyphi.net/repository/svn/www-scraper-lite/trunk/lib/WWW/Scraper/Lite.pm $
 #
@@ -14,7 +14,7 @@ use LWP::UserAgent;
 use HTML::TreeBuilder::XPath;
 use Carp;
 
-our $VERSION = do { my ($r) = q$Revision: 12 $ =~ /(\d+)/smx; $r; };
+our $VERSION = do { my ($r) = q$Revision: 15 $ =~ /(\d+)/smx; $r; };
 
 sub new {
   my ($class, $ref) = @_;
@@ -124,6 +124,10 @@ sub url_make_absolute {
     $current_dir = q[/];
   }
 
+  if($url =~ m{^mailto:}smix) {
+    return $url;
+  }
+
   if($url =~ m{^[[:lower:]]+://}smix) {
     #########
     # already absolute
@@ -150,7 +154,7 @@ WWW::Scraper::Lite
 
 =head1 VERSION
 
-$LastChangedRevision: 11 $
+$LastChangedRevision: 15 $
 
 =head1 SYNOPSIS
 

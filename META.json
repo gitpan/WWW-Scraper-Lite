@@ -46,14 +46,14 @@
             "LWP::UserAgent" : "6.02",
             "Readonly" : "1.03",
             "strict" : "1.04",
-            "warnings" : "1.12"
+            "warnings" : "1.06"
          }
       }
    },
    "provides" : {
       "WWW::Scraper::Lite" : {
          "file" : "lib/WWW/Scraper/Lite.pm",
-         "version" : "12"
+         "version" : "15"
       }
    },
    "release_status" : "stable",
@@ -62,5 +62,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "12"
+   "version" : "15"
 }
